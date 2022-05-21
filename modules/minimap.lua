@@ -32,7 +32,7 @@ bgMinimapButton:SetClampedToScreen(true)
 
 bgMinimapButtonTexture:SetWidth(32)
 bgMinimapButtonTexture:SetHeight(32)
-bgMinimapButtonTexture:SetTexture('Interface\\AddOns\\BagSync\\media\\minimap.tga')
+bgMinimapButtonTexture:SetTexture('Interface\\AddOns\\BagSyncString\\media\\minimap.tga')
 bgMinimapButtonTexture:SetPoint('CENTER')
 
 Module.button = bgMinimapButton
