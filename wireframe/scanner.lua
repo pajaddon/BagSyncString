@@ -69,9 +69,9 @@ function Scanner:SaveBag(bagtype, bagid)
 			end
 		end
 			
-		BSYC.db.player[bagtype][bagid] = slotItems
+		BSYC.db.player[bagtype][tostring(bagid)] = slotItems
 	else
-		BSYC.db.player[bagtype][bagid] = nil
+		BSYC.db.player[bagtype][tostring(bagid)] = nil
 	end
 end
 
